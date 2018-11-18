@@ -46,7 +46,7 @@ public class Controller {
     if (nextClicks >0)
     {
       nextClicks--; //decrement nextClick variable
-      System.out.println(nextClicks+" after mnus");
+      //System.out.println(nextClicks+" after mnus");
       // Access the database via a local path. Within the source files, there a folder called
       //lib and in that folder there is a directory called books which stores our database
       final String DATABASE_URL = "jdbc:derby:lib\\books";
@@ -146,6 +146,7 @@ public class Controller {
      * This actionevent is activated when the "handleConnect" Button is clicked
      * This method will connect the program to the database
      * and then it will change the labels to show the data.
+     * This method allows buttonNext to be clickable.
      */
     nextClicks=0; //restart counter
     buttonNext.setDisable(false); //Allows buttonNext to be clicked
