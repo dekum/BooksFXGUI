@@ -10,9 +10,18 @@ public class Main extends Application {
 
   @Override
   public void start(Stage primaryStage) throws Exception{
-    Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-    primaryStage.setTitle("Hello World");
-    primaryStage.setScene(new Scene(root, 300, 275));
+    /**
+     * This method starts the GUI Program
+     *
+     */
+    //Setup the screen, use the url of StartScreen.fxml
+    Parent root = FXMLLoader.load(getClass().getResource("StartScreen.fxml"));
+    //Set the title of the next window
+    primaryStage.setTitle("Start Screen");
+    //set the elements in the Scene and also it's width and height
+    primaryStage.setScene(new Scene(root, 500, 260));
+    //show the Screen
+
     primaryStage.show();
   }
 
