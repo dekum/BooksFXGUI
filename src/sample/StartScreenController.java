@@ -15,6 +15,8 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 /**
+ * Philemon Petit-Frere
+ * 11/17/208
  * StartScreenController.java
  * This is the controller for the StartScreen.fxml
  * This is the first screen the user will see, and it will allow the user to open the next window
@@ -22,7 +24,7 @@ import javafx.stage.Stage;
  *
  */
 
-public class StartScreenController implements Initializable {
+public class StartScreenController {
 
   @FXML
   Button btnExit;
@@ -56,8 +58,6 @@ public class StartScreenController implements Initializable {
     //set the new scene
     stage.setScene(new Scene(p));
     stage.show(); //Opens new Window
-
-
   }
   @FXML void  handleQuit(ActionEvent event){
     /**
@@ -67,13 +67,5 @@ public class StartScreenController implements Initializable {
     Stage stageExit = (Stage) btnExit.getScene().getWindow();
     //closes the program
     stageExit.close();
-
-  }
-
-  @Override
-  public void initialize(URL location, ResourceBundle resources) {
-
-
-
   }
 }

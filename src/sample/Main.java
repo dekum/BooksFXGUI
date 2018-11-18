@@ -1,4 +1,11 @@
 package sample;
+/**
+ * * Philemon Petit-Frere
+ *  * 11/17/2018
+ *  Main.java
+ *  The primary purpose of this file is to start the program.
+ *  This opens the StartScreen.fxml
+ */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -21,10 +28,8 @@ public class Main extends Application {
     //set the elements in the Scene and also it's width and height
     primaryStage.setScene(new Scene(root, 500, 260));
     //show the Screen
-
     primaryStage.show();
   }
-
 
   public static void main(String[] args) {
     launch(args);

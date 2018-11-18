@@ -19,14 +19,15 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button mnemonicParsing="false" onAction="#handleConnect" prefHeight="46.0" prefWidth="94.0" text="Connect" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#handleConnect" prefHeight="46.0" prefWidth="94.0" text="Connect/Restart" GridPane.rowIndex="1" />
       <Label fx:id="lblFirst" prefHeight="17.0" prefWidth="87.0" GridPane.rowIndex="3" />
       <Label fx:id="lblLast" prefHeight="17.0" prefWidth="78.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <Label text="Sample DataBase Gui" GridPane.columnIndex="1" />
+      <Label prefHeight="45.0" prefWidth="144.0" text="Books DataBase Gui" GridPane.columnIndex="1" GridPane.columnSpan="2" />
       <Label text="First Name:" GridPane.rowIndex="2" />
       <Label layoutX="10.0" layoutY="114.0" text="Last Name:" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       <Label layoutX="113.0" layoutY="114.0" text="Author ID" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <Label fx:id="lblID" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <Button mnemonicParsing="false" onAction="#handleNext" text="Next" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="buttonNext" disable="true" mnemonicParsing="false" onAction="#handleNext" text="Next" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="buttonPrevious" disable="true" layoutX="216.0" layoutY="65.0" mnemonicParsing="false" onAction="#handlePrevious" text="Previous" GridPane.columnIndex="1" GridPane.rowIndex="1" />
    </children>
 </GridPane>
