@@ -1,8 +1,8 @@
 # BooksFXGUI
 
-*Philemon Petit-Frere
-*November 17/2018
-*Demostrate using GUI with a derby Database
+* Philemon Petit-Frere
+* November 17/2018
+* Demostrate using GUI with a derby Database
 
 
 ## OverView
@@ -21,7 +21,7 @@ And this is a gif of the program running successfully. You can see how the next 
 ![Gui Picture](https://github.com/dekum/BooksFXGUI/blob/master/showcase.gif?raw=true)
   
   ### Sources
-  **Derby:  an open source relational database implemented entirely in Java. https://db.apache.org/derby/ <br>
-  installation: https://db.apache.org/derby/papers/DerbyTut/install_software.html <br>
-  **InteliJ Java IDE, used to build this program https://www.jetbrains.com/idea/
+  **Derby**:  an open source relational database implemented entirely in Java. https://db.apache.org/derby/ <br>
+  **installation**: https://db.apache.org/derby/papers/DerbyTut/install_software.html <br>
+  **InteliJ IDEA** Java IDE, used to build this program https://www.jetbrains.com/idea/
   
