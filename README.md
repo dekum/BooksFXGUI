@@ -13,15 +13,15 @@
 This is a picture of the start screen
 ![Gui Picture](https://github.com/dekum/BooksFXGUI/blob/master/GuiStart.png?raw=true)<br> 
 
-Included here is a picture of the screen when the database is properly connected. The pervious button is selectable here, but is disabled by default.
+Included here is a picture of the screen when the database is properly connected. The previous button is selectable here, but is disabled by default. The Next button is selectable when connection is successfully, it moves the resultset to the next row of the table
 ![Gui Picture](https://github.com/dekum/BooksFXGUI/blob/master/GuiPicture.PNG?raw=true) <br>
 
 
-And this is a gif of the program running successfully.
+And this is a gif of the program running successfully. You can see how the next and the previous button function properly.
 ![Gui Picture](https://github.com/dekum/BooksFXGUI/blob/master/showcase.gif?raw=true)
   
   ### Sources
-  **Derby:  an open source relational database implemented entirely in Java. https://db.apache.org/derby/
-  installation: https://db.apache.org/derby/papers/DerbyTut/install_software.html
+  **Derby:  an open source relational database implemented entirely in Java. https://db.apache.org/derby/ <br>
+  installation: https://db.apache.org/derby/papers/DerbyTut/install_software.html <br>
   **InteliJ Java IDE, used to build this program https://www.jetbrains.com/idea/
   
